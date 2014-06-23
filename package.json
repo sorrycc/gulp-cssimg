@@ -4,7 +4,7 @@
   "description": "handle background images for css",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha -R spec -t 50000 --require should"
+    "test": "make test"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/sorrycc/gulp-cssimg",
   "devDependencies": {
+    "coveralls": "^2.10.1",
     "gulp": "^3.8.1",
+    "istanbul": "^0.2.11",
     "mocha": "^1.20.1",
     "should": "^4.0.4"
   },
